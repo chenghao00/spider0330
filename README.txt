@@ -6,3 +6,8 @@
 3、vim /ect/tinyproxy.conf --> 将端口port改成7731 将 #Allow127.0.0.1
 4、tail -f /var/log/tinyproxy/tinyproxy.log观察日志
 5、在06try_proxies中就可以使用代理
+
+#关于selenium+chrome
+#声明浏览器的驱动对象
+使用browser = webdriver.Chrome('/Users/narihiro/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/chrome/chromedriver')
+
