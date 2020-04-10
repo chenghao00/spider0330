@@ -6,4 +6,4 @@ MONGO_TABLE = 'product'
 SERVICE_ARGS = ['--load-images=false', '--disk-cache=true']
 Executable_path = '/Users/narihiro/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/chrome/chromedriver'
 
-KEYWORD = '美食'
+KEYWORD = '宠物狗狗衣服'
