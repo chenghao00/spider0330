@@ -9,12 +9,17 @@ client = pymongo.MongoClient(host='localhost', port=27017)
 # 2、指定数据库
 #db = client.test
 #db = client.movies
-db = client.taobao
+#db = client.taobao
+#db = client.quotestutorial
+#db = client.yangguang
+db = client.sunning
 
 # 3、创建collection对象,类似于关系型中的表
 #collection = db.students
 #collection = db.movies
-collection = db.product
+#collection = db.QuoteItem
+#collection = db.YangguangItem
+collection = db.SunningItem
 
 # # 插入单条数据
 # student = {
@@ -58,7 +63,7 @@ collection = db.product
 # count=collection.find().count()
 # print(count)
 
-
+#result=collection.drop()
 results=collection.find()
 for result in results:
     print(result)

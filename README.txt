@@ -11,3 +11,6 @@
 #声明浏览器的驱动对象
 使用browser = webdriver.Chrome('/Users/narihiro/opt/anaconda3/lib/python3.7/site-packages/selenium/webdriver/chrome/chromedriver')
 
+
+#安装pyspider出现的问题
+https://blog.csdn.net/SiHann/article/details/88239892
